@@ -491,14 +491,14 @@
         #define DOGLCD_SCK                    23
         #define DOGLCD_A0            LCD_PINS_DC
       #else
-        #define LCD_PINS_RS                   16
-        #define LCD_PINS_ENABLE               17
-        #define LCD_PINS_D4                   23
-        #define LCD_PINS_D5                   25
-        #define LCD_PINS_D6                   27
+        #define LCD_PINS_RS                   25
+        #define LCD_PINS_ENABLE               27
+        #define LCD_PINS_D4                   29
+        #define LCD_PINS_D5                   16
+        #define LCD_PINS_D6                   17
       #endif
 
-      #define LCD_PINS_D7                     29
+      #define LCD_PINS_D7                     23
 
       #if DISABLED(NEWPANEL)
         #define BEEPER_PIN                    33
